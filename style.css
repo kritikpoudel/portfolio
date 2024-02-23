@@ -1,0 +1,221 @@
+body {
+  margin: 0px;
+}
+nav a {
+  color: black;
+  padding: 1.6875em 2.1875em 1.875em;
+  text-decoration: none;
+  float: right;
+  text-align: center;
+  font-size: 1.25em;
+}
+nav :hover {
+  color: rgb(255, 0, 0);
+}
+nav .brand {
+  color: rgb(255, 0, 0);
+  font-size: 1.875em;
+  font-weight: bold;
+  font-family: serif;
+  float: left;
+  text-align: justify;
+  padding: 1.25em;
+}
+#home {
+  background-image: url(1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 51.25em;
+}
+nav .color-brand {
+  color: white;
+  background-color: black;
+  padding: 0px 0.375em 0.3125em;
+  border-radius: 50%;
+}
+nav {
+  overflow: hidden;
+  width: 100%;
+  margin: 0;
+  background-color: whitesmoke;
+  position: fixed;
+  top: 0px;
+}
+
+.info {
+  color: white;
+  float: left;
+  width: 100%;
+  text-align: center;
+  margin-top: 10%;
+}
+.info h1 {
+  font-size: 4.5em;
+  height: 3.125em;
+  letter-spacing: 0.3125em;
+  font-family: serif;
+}
+.info p {
+  font-size: 21px;
+  letter-spacing: 0.125em;
+  height: 3.125em;
+}
+.info a {
+  text-decoration: none;
+  font-size: 1.25em;
+  border: 0.125em solid;
+  padding: 0.3125em;
+  border-radius: 1.5625em;
+  margin: 2.5em;
+  color: white;
+}
+.info span.dot {
+  margin: 1.25em;
+  background-color: red;
+  display: inline-block;
+  width: 0.375em;
+  height: 0.375em;
+  margin: 0.25em 1em;
+  border-radius: 50%;
+}
+.info a:hover {
+  background-color: red;
+}
+.profile-photo img {
+  border: 0.3125em solid white;
+  border-radius: 40%;
+  max-width: 12.5em;
+  padding: 0.3125em;
+  box-shadow: 0px 0px 1.5625em 0px rgb(0 0 0 / 30%);
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#about {
+  padding-top: 1.25em;
+}
+.about-me {
+  text-align: center;
+  font-family: sans-serif;
+}
+.about-me h2 {
+  letter-spacing: 0.125em;
+}
+.about-me .College {
+  font-size: 1.25em;
+  color: grey;
+  margin-bottom: -0.3125em;
+}
+.about-me .Student {
+  margin-top:  0.625em;
+  letter-spacing: 0.0625em;
+}
+.fa {
+  padding: 0.0625em;
+  font-size: 1.875em;
+  width: 1.5625em;
+  text-align: center;
+  text-decoration: none;
+  margin: 0.125em 0.0625em;
+}
+.social-link {
+  text-align: center;
+}
+.social-link .fa-facebook {
+  color: darkblue;
+}
+.social-link .fa-instagram {
+  color: orangered;
+}
+.social-link .fa-github {
+  color: black;
+}
+.social-link .fa-youtube {
+  color: red;
+}
+.footer-left .brand {
+  color: rgb(255, 0, 0);
+  font-size: 1.875em;
+  font-weight: bold;
+  font-family: serif;
+  float: left;
+  text-align: justify;
+  padding: 1.25em;
+  text-decoration: none;
+}
+.footer-left .color-brand {
+  color: white;
+  background-color: black;
+  padding: 0px 0.375em 0.3125em;
+  border-radius: 50%;
+}
+.footer-mid form {
+  display: flex;
+  flex-direction: column;
+  margin-right: 9.375em;
+}
+.footer-mid h5 {
+  margin-right: 9.375em;
+  font-size: 1.2rem;
+}
+.footer-mid form input {
+  text-align: center;
+  border: none;
+  margin-left: 21.875em;
+  margin-right: 21.875em;
+  padding: 0.9375em  0.625em;
+}
+footer {
+  background-image: url(img4.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.footer-mid form textarea {
+  border: none;
+  margin-left: 21.875em;
+  margin-right: 21.875em;
+  padding: 0.9375em  0.625em;
+}
+.contact {
+  display: flex;
+  justify-content: center;
+}
+.phone {
+  margin-right: 31.25em;
+  width: 9.375em;
+}
+.phone .fa-phone {
+  background-color: black;
+  font-size: 2.5em;
+  border-radius: 50%;
+  width: 3.75em;
+  height: 3.75em;
+  line-height: 3.75em;
+  color: white;
+}
+.message .fa-envelope-o {
+  font-size: 2.5em;
+  background-color: black;
+  font-size: 2.5em;
+  border-radius: 50%;
+  width: 3.75em;
+  height: 3.75em;
+  line-height: 3.75em;
+  color: white;
+}
+.footer-mid form button {
+   text-align: center;
+  border: none;
+  margin-left: 31.25em;
+  margin-right: 31.25em;
+  padding: 0.9375em  0.625em;
+  margin-top:  0.625em;
+  border-radius: 40%;
+  font-weight: bold;
+}
+.footer-mid form button :hover{
+  background-color: red;
+
+}
+
